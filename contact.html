@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Nathaniel Skinner Portfolio</title>
+  <meta name="description" content="Contact page for Nathaniel Skinner, including about information and a contact form.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo-area">
+      <h1>Nathaniel Skinner</h1>
+      <p class="tagline">Business + Technology | Project Portfolio &amp; Resume</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I am a business and technology student interested in finance, data analytics,
+        and technology-driven solutions. I enjoy working on projects that connect
+        technical tools with real-world business problems.
+      </p>
+    </section>
+
+    <section>
+      <h3>Contact Form</h3>
+      <p>
+        Use the form below to get in touch about projects, opportunities, or questions.
+      </p>
+
+      <form action="#" method="post">
+        <div class="form-row">
+          <label for="name">Name:</label>
+          <input id="name" name="name" type="text" required>
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email:</label>
+          <input id="email" name="email" type="email" required>
+        </div>
+
+        <div class="form-row">
+          <label for="reason">Reason for Contact:</label>
+          <select id="reason" name="reason">
+            <option value="project">Project Question</option>
+            <option value="opportunity">Job / Internship</option>
+            <option value="networking">Networking</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+        </div>
+
+        <div class="form-row">
+          <button type="submit">Send Message</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Nathaniel Skinner. All rights reserved.</p>
+    <p>
+      Contact: <a href="mailto:nskinne3@asu.edu">nskinne3@asu.edu</a> |
+      <a href="https://www.asu.edu" target="_blank" rel="noopener">Arizona State University</a>
+    </p>
+  </footer>
+</body>
+</html>
